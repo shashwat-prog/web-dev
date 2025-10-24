@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{text-align: center;}
+</style>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr>
+    <form action="registration">
+        <label for="full name">Full name:</label>
+        <input type="text" id="name" placeholder="Enter full name" required><br><br>
+        <label for="Email">Email:</label>
+        <input type="email" placeholder="Enter valid Email" required><br><br>
+        <label for="password">password:</label>
+        <input type="text" placeholder="Enter Password" id="password" required><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="male" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" value="male">
+        <label for="male">Female</label>
+      <input type="radio" name="none" id="none" value="none">
+        <label for="male">None</label><br><br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+             <option value="select course">--select course--</option>
+             <option value="btech">btech</option>
+             <option value="B.sc">B.sc</option>
+             <option value="Bba">Bba</option>
+             <option value="Mba">Mba</option>
+             <option value="bcom">Bcom</option>
+             <option value="Mbbs">Mbbs</option>
+        </select><br><br>
+        <label for="number">Contact No:</label>
+       <input type="text" placeholder="Enter phone number"><br><br>
+       <label for="address">Address:</label><br>
+       <textarea name="address" id="address" required>Enter your address</textarea><br><br>
+       <button>Register</button>
+       <button>clear</button>
+       <hr>
+    </form>
+</body>
+</html>
